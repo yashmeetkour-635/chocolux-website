@@ -1,0 +1,824 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+/*-------- This is warpper -------- */
+
+.warpper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/*-------- This is navbar --------*/
+
+.nav {
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    /* position: fixed; */
+}
+
+.nav h1 {
+    margin: 25px;
+}
+
+.menu {
+    display: flex;
+    margin: 30px;
+}
+
+li {
+    padding-right: 20px;
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+.fa-magnifying-glass {
+    height: 5px;
+    width: 5px;
+    color: black;
+    margin-top: 40px;
+}
+
+.fa-user {
+    margin-left: 20px;
+}
+
+/* -------- This  is Section ------- */
+
+.section {
+    height: 500px;
+    width: 90%;
+    background-image: url(img/slider-bg1.png);
+    background-size: content;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.sec-n {
+    display: flex;
+}
+
+.h1 {
+    color: white;
+    padding: 50px 0 0 60px;
+    font-size: 50px;
+}
+
+.h2 {
+    color: white;
+    padding-left: 80px;
+    padding-top: 0;
+    font-size: 100px;
+}
+
+.section-img {
+    height: 300px;
+    margin-left: 250px;
+    margin-top: 50px;
+}
+
+/* -------- This Is About -------- */
+
+.about {
+    width: 100%;
+    display: flex;
+}
+
+.fa-arrow-right-long {
+    margin-left: 5px;
+    margin-top: 4px;
+}
+
+.about-1 {
+    width: 50%;
+    margin-top: 90px;
+}
+
+.about-2 {
+    width: 50%;
+}
+
+/* -------- This is article -------- */
+
+.art-1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.art-2 {
+    width: 100%;
+    height: 400px;
+    display: flex;
+}
+
+.art2-l {
+    width: 33.33%;
+    height: 350px;
+    border: 1px solid black;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.art2-c {
+    width: 33.33%;
+    height: 350px;
+    border: 1px solid black;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.art2-r {
+    width: 33.33%;
+    height: 350px;
+    border: 1px solid black;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.art-img {
+    margin-top: 20px;
+}
+
+.hover {
+    width: 100%;
+    height: 100px;
+    margin-top: 26px;
+    color: white;
+}
+
+.hover:hover {
+    display: block;
+    background-color: #46200B;
+}
+
+.hover1 {
+    width: 100%;
+    height: 100px;
+    margin-top: 95px;
+    color: white;
+}
+
+.hover1:hover {
+    display: block;
+    background-color: #46200B;
+}
+
+.hover2 {
+    width: 100%;
+    height: 100px;
+    margin-top: 10px;
+    color: white;
+}
+
+.hover2:hover {
+    display: block;
+    background-color: #46200B;
+}
+
+/* ------- This is button -------- */
+
+.button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.button1 {
+    width: 50px;
+    height: 50px;
+    border: 1px solid gray;
+    box-shadow: 1px 1px grey;
+    margin-right: 10px;
+}
+
+.button2 {
+    width: 50px;
+    height: 50px;
+    border: 1px solid gray;
+    box-shadow: 1px 1px grey;
+}
+
+.button1:hover {
+    background-color: #46200B;
+}
+
+.button2:hover {
+    background-color: #46200B;
+}
+
+.fa-arrow-left {
+    margin: 17px 0 0 15px;
+    color: #46200B;
+}
+
+.fa-arrow-right {
+    margin: 17px 0 0 15px;
+    color: #46200B;
+}
+
+.fa-arrow-left:hover {
+    color: white;
+}
+
+.fa-arrow-right:hover {
+    color: white;
+}
+
+.offer {
+    width: 100%;
+    height: 800px;
+    text-align: center;
+}
+
+.main-offer {
+    height: 450px;
+    border: 1px solid black;
+}
+
+.offer-text {
+    margin-top: 50px;
+    color: #46200B;
+}
+
+.btn-text {
+    width: 150px;
+    height: 40px;
+    background-color: #46200B;
+    color: white;
+    border: 1px solid black;
+    margin: auto;
+}
+
+.btn-text:hover {
+    background-color: white;
+    color: #46200B;
+}
+
+.offer-img {
+    height: 200px;
+    width: 100%;
+    margin: auto;
+}
+
+.see-more {
+    height: 50px;
+    width: 100%;
+    color: black;
+    margin-top: 30px;
+}
+
+.testimonial {
+    width: 100%;
+    display: flex;
+}
+
+.testi-img {
+    height: 350px;
+    width: 300px;
+    margin-top: 50px;
+}
+
+.testi-1 {
+    background-image: url(img/slider-bg1.png);
+    height: 800px;
+    width: 400px;
+    margin-left: 200px;
+    color: white;
+    text-align: left;
+    display: flex;
+}
+
+.testi-2 {
+    width: 70px;
+    margin-top: 80px;
+}
+
+.contact-us {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.contact-us h1 {
+    margin-left: 100px;
+}
+
+.form-map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    width: 100%;
+    margin-left: 100px;
+}
+
+.map {
+    margin-bottom: 19px;
+}
+
+input,
+textarea {
+    width: 90%;
+    height: 50px;
+}
+
+textarea {
+    resize: none;
+}
+
+iframe {
+    width: 500px;
+    height: 300px;
+    padding-right: 20px;
+}
+
+.btn-form {
+    width: 120px;
+    height: 40px;
+    background-color: #46200B;
+    color: white;
+    border: 1px solid black;
+}
+
+.btn-form:hover {
+    background-color: white;
+    color: #46200B;
+}
+
+/* Footer */
+
+.footer {
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    margin-top: 10px;
+}
+
+.sect-1 {
+    display: flex;
+}
+
+.email {
+    position: relative;
+    width: 70%;
+    margin: 40px 20px;
+}
+
+.btn-footer {
+    width: 60px;
+    height: 50px;
+    background-color: #46200B;
+    margin-right: 50px;
+    position: absolute;
+    right: 0;
+    color: white;
+    border: 1px solid #46200B;
+}
+
+.btn-footer:hover {
+    background-color: black;
+    color: #46200B;
+}
+
+.social {
+    width: 30%;
+    height: 50px;
+    margin: 40px 15px 0 0;
+    display: flex;
+}
+
+.fb,
+.twitter,
+.linkdien {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    border: 1px solid white;
+}
+
+.fa-facebook-f,
+.fa-twitter,
+.fa-linkedin-in {
+    color: white;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 10px;
+}
+
+.footer-section {
+    width: 100%;
+    display: flex;
+}
+
+.menu1 {
+    display: block;
+    width: 24%;
+    margin-left: 20px;
+}
+
+.menu-1 h2 {
+    color: white;
+}
+
+.ul li a {
+    color: white;
+}
+
+.instagram {
+    width: 24%;
+    margin-right: 10px;
+}
+
+.instagram h2 {
+    color: white;
+}
+
+.insta-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.insta2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.insta-img {
+    background-color: white;
+    height: 70px;
+    width: 70px;
+}
+
+.insta-p {
+    color: white;
+}
+
+.company {
+    color: white;
+    width: 24%;
+}
+
+.cont-us {
+    color: white;
+}
+
+.loc {
+    color: white;
+    display: flex;
+}
+
+.call,
+.mail {
+    display: flex;
+}
+
+.copyright {
+    width: 100%;
+    height: 50px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+/* =============================================
+   HAMBURGER (hidden on desktop)
+   ============================================= */
+.hamburger {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+    margin: auto 15px auto auto;
+}
+
+.hamburger span {
+    display: block;
+    width: 25px;
+    height: 2px;
+    background-color: black;
+    transition: all 0.3s ease;
+}
+
+.hamburger.active span:nth-child(1) { transform: rotate(45deg) translate(5px, 5px); }
+.hamburger.active span:nth-child(2) { opacity: 0; }
+.hamburger.active span:nth-child(3) { transform: rotate(-45deg) translate(5px, -5px); }
+
+.nav-icons {
+    display: flex;
+    align-items: center;
+    margin: auto 10px auto 0;
+}
+
+/* =============================================
+   MEDIA QUERIES — only layout fixes, no style changes
+   ============================================= */
+
+/* ----------- Tablet: 769px – 900px ----------- */
+@media screen and (max-width: 900px) {
+    .warpper {
+        max-width: 100%;
+    }
+
+    .section {
+        width: 100%;
+        background-size: cover;
+    }
+
+    .section-img {
+        margin-left: 80px;
+    }
+
+    .testi-1 {
+        margin-left: 20px;
+        width: auto;
+        flex: 1;
+    }
+
+    iframe {
+        width: 100%;
+    }
+
+    .footer {
+        height: auto;
+        padding-bottom: 20px;
+    }
+}
+
+/* ----------- Mobile: max 768px ----------- */
+@media screen and (max-width: 768px) {
+
+    /* --- Navbar --- */
+    .nav {
+        height: auto;
+        flex-wrap: wrap;
+        padding: 15px 10px;
+        align-items: center;
+        position: relative;
+    }
+
+    .nav h1 {
+        margin: 0 0 0 10px;
+        flex: 1;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+    .nav-icons {
+        margin: 0 10px 0 0;
+    }
+
+    .menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        margin: 10px 0 0 0;
+        background-color: white;
+        border-top: 1px solid #eee;
+    }
+
+    .menu.open {
+        display: flex;
+    }
+
+    .menu li {
+        padding: 10px 20px;
+        border-bottom: 1px solid #f0f0f0;
+    }
+
+    .menu li h2 {
+        font-size: 0.95rem;
+    }
+
+    /* --- Hero Section --- */
+    .section {
+        height: auto;
+        width: 100%;
+        background-size: cover;
+        padding-bottom: 20px;
+    }
+
+    .sec-n {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .h1 {
+        font-size: 32px;
+        padding: 30px 0 0 30px;
+    }
+
+    .h2 {
+        font-size: 60px;
+        padding-left: 30px;
+    }
+
+    .sec-img {
+        text-align: center;
+    }
+
+    .section-img {
+        height: 200px;
+        margin: 20px auto 0;
+        display: block;
+    }
+
+    /* --- About --- */
+    .about {
+        flex-direction: column;
+    }
+
+    .about-1 {
+        width: 100%;
+        margin-top: 30px;
+        padding: 0 20px;
+    }
+
+    .about-2 {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .about-2 img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    /* --- Article / Products --- */
+    .art-2 {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .art2-l,
+    .art2-c,
+    .art2-r {
+        width: 100%;
+        height: auto;
+        margin-right: 0;
+        margin-bottom: 15px;
+        padding-bottom: 15px;
+    }
+
+    .art-img {
+        width: 80%;
+        height: auto;
+        display: block;
+        margin: 20px auto 0;
+    }
+
+    .hover,
+    .hover1,
+    .hover2 {
+        margin-top: 15px;
+    }
+
+    /* --- Offer --- */
+    .offer {
+        height: auto;
+        padding-bottom: 30px;
+    }
+
+    .main-offer {
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    .offer-img img {
+        width: 80%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+
+    /* --- Testimonial --- */
+    .testimonial {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .testi-img {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        margin: 20px auto 0;
+        display: block;
+    }
+
+    .testi-1 {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        padding: 20px;
+        background-size: cover;
+    }
+
+    .testi-2 {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    /* --- Contact --- */
+    .contact-us h1 {
+        margin-left: 20px;
+    }
+
+    .form-map {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .form {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .map {
+        padding: 0 20px;
+        margin-bottom: 20px;
+    }
+
+    iframe {
+        width: 100%;
+        height: 250px;
+        padding-right: 0;
+    }
+
+    input,
+    textarea {
+        width: 100%;
+    }
+
+    /* --- Footer --- */
+    .footer {
+        height: auto;
+        padding-bottom: 30px;
+    }
+
+    .sect-1 {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px;
+    }
+
+    .email {
+        width: 100%;
+        margin: 0 0 20px 0;
+    }
+
+    .email input {
+        width: 100%;
+        padding-right: 65px;
+    }
+
+    .social {
+        width: auto;
+        margin: 0;
+    }
+
+    .footer-section {
+        flex-wrap: wrap;
+        padding: 0 15px;
+    }
+
+    .menu1,
+    .instagram,
+    .company,
+    .cont-us {
+        width: 48%;
+        margin-bottom: 20px;
+    }
+}
+
+/* ----------- Small Mobile: max 480px ----------- */
+@media screen and (max-width: 480px) {
+    .h1 { font-size: 26px; }
+    .h2 { font-size: 45px; }
+
+    .menu1,
+    .instagram,
+    .company,
+    .cont-us {
+        width: 100%;
+    }
+
+    .section-img {
+        height: 160px;
+    }
+}
